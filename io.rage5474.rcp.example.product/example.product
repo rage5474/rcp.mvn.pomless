@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Example RCP Application" uid="io.rage5474.rcp.example.product" id="io.rage5474.rcp.example.ui.plugin.example_rcp_product" application="io.rage5474.rcp.example.ui.plugin.application" version="1.0.0" useFeatures="true" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages/>
+
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="io.rage5474.rcp.example.ui.feature" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.emf.ecore" version="2.12.0.v20160420-0247"/>
+      <feature id="org.eclipse.emf.common" version="2.12.0.v20160420-0247"/>
+      <feature id="org.eclipse.rcp" version="4.6.0.v20160606-1342"/>
+   </features>
+
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>

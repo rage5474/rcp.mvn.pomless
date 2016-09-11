@@ -53,5 +53,17 @@
          </menu>
       </menuContribution>
    </extension>
+   <extension
+         id="example_rcp_product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="io.rage5474.rcp.example.ui.plugin.application"
+            name="Example RCP Application">
+         <property
+               name="appName"
+               value="Example RCP Application">
+         </property>
+      </product>
+   </extension>
 
 </plugin>
