@@ -27,7 +27,7 @@ Contributors:
 	<modules>
 		<module>io.rage5474.rcp.example.ui.plugin</module>
 		<module>io.rage5474.rcp.example.ui.feature</module>
-		<module>mars</module>
+		<module>io.rage5474.rcp.example.tp</module>
 	</modules>
 
 	<build>
