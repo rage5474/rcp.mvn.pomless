@@ -22,9 +22,9 @@
    <extension
          point="org.eclipse.ui.views">
       <view
-            name="View"
-            class="io.rage5474.rcp.example.ui.plugin.View"
-            id="io.rage5474.rcp.example.ui.plugin.view">
+            name="MyPart"
+            class="io.rage5474.rcp.example.ui.plugin.MyPartWrapper"
+            id="io.rage5474.rcp.example.ui.plugin.mypart">
       </view>
    </extension>
    <extension
@@ -36,7 +36,7 @@
                minimized="false"
                relative="org.eclipse.ui.editorss"
                relationship="left"
-               id="io.rage5474.rcp.example.ui.plugin.view">
+               id="io.rage5474.rcp.example.ui.plugin.mypart">
          </view>
       </perspectiveExtension>
    </extension>
@@ -65,5 +65,6 @@
          </property>
       </product>
    </extension>
+   
 
 </plugin>

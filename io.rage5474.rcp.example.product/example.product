@@ -3,7 +3,6 @@
 
 <product name="Example RCP Application" uid="io.rage5474.rcp.example.product" id="io.rage5474.rcp.example.ui.plugin.example_rcp_product" application="io.rage5474.rcp.example.ui.plugin.application" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
-
    <configIni use="default">
    </configIni>
 
@@ -14,7 +13,6 @@
 
    <windowImages/>
 
-
    <launcher>
       <solaris/>
       <win useIco="false">
@@ -22,10 +20,8 @@
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
    </plugins>
@@ -35,6 +31,7 @@
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.emf.common"/>
       <feature id="org.eclipse.rcp"/>
+      <feature id="io.rage5474.rcp.example.core.feature" version="1.0.0.qualifier"/>
    </features>
 
    <configurations>
